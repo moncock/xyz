@@ -1,0 +1,45 @@
+.welcome {
+  margin-top: 84px;
+  background-color: #FDFDF3;
+  color: #361d45;
+  font-size: 120px;
+  padding: 100px 0px;
+}
+.welcome img {
+  max-width: 300px;
+}
+.pfp {
+  width: 100%;
+  overflow: hidden;
+  background-color: #BF83E5;
+  white-space: nowrap;
+  padding: 40px 0px;
+}
+.pfp img {
+  height: 200px;
+  width: 200px;
+  margin-left: -3px;
+}
+.marquee-left {
+  animation: scroll-left 15s linear infinite;
+  margin-bottom: 40px;
+}
+.marquee-right {
+  animation: scroll-right 15s linear infinite;
+}
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

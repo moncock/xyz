@@ -1,4 +1,4 @@
-/* topbar */
+/* font */
 @font-face {
   font-family: 'BebasNeue';
   src: url('/static/fonts/bebasNeue/BebasNeue-Regular.ttf');
@@ -6,6 +6,16 @@
   font-style: normal;
   font-weight: normal;
 }
+
+/* common */
+html,
+body {
+  height: 100%;
+  background-color: #fdfaff;
+  font-family: BebasNeue;
+}
+
+/* topbar */
 .top-bar {
   width: 100%;
   position: absolute;
@@ -25,18 +35,10 @@
   letter-spacing: 0.43px;
 }
 .top-bar a.active {
-  color: #8a67b5;
-  border-bottom: 2px solid #8a67b5;
+  color: #BF83E5;
+  border-bottom: 2px solid #BF83E5;
 }
 .top-bar a:hover {
-  color: #8a67b5;
-  border-bottom: 2px solid #8a67b5;
-}
-
-/* main */
-html,
-body {
-  height: 100%;
-  background-color: #fdfaff;
-  font-family: BebasNeue;
+  color: #BF83E5;
+  border-bottom: 2px solid #BF83E5;
 }
