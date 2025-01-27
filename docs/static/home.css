@@ -51,7 +51,8 @@
 .credit {
   color: #FFF;
   background-color: #FE80BF;
-  padding: 60px 0px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .credit p {
   font-size: 70px;
@@ -71,4 +72,31 @@
 }
 .credit .discord {
   padding-top: 50px;
+}
+
+/* mobile friendly */
+@media (max-width: 767px) {
+  .welcome {
+    font-size: 100px;
+    padding: 50px 0px;
+  }
+  .credit p {
+    font-size: 60px;
+  }
+  .credit .col {
+    font-size: 1.5rem;
+  }
+  .credit img {
+    width: 150px;
+    height: 150px;
+  }
+  .credit img.twit_logo {
+    margin-bottom: 20px;
+  }
+  .credit .twitter {
+    padding-top: 20px;
+  }
+  .credit .discord {
+    padding-top: 35px;
+  }
 }

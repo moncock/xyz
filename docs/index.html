@@ -39,17 +39,18 @@
             rel="stylesheet"
         />
         <link href="/static/common.css" rel="stylesheet" />
-        <link href="/static/home.css" rel="stylesheet" />
+        <link href="/static/home.css?t=250127" rel="stylesheet" />
     </head>
     <body>
         <div class="top-bar">
             <a href="/" class="active">HOME</a>
-            <a href="/game">MONCOCK PUNCH</a>
-            <a href="/moncock-run">MONCOCK RUN</a>
-            <a href="/beatmoncock">BEAT MONCOCK</a>
+            <a class="d-none d-md-inline" href="/game">MONCOCK PUNCH</a>
+            <a class="d-none d-md-inline" href="/moncock-run">MONCOCK RUN</a>
+            <a class="d-none d-md-inline" href="/beatmoncock">BEAT MONCOCK</a>
         </div>
         <div class='welcome text-center'>
           <img src='/static/images/pfp/moncock_pic.PNG'>
+          <br class='d-xl-none'>
           WELCOME MONCOCK
         </div>
         <div class='pfp'>
@@ -90,7 +91,7 @@
           <p class='text-center'>TEAM & SUPPORT</p>
           <div class='row'>
             <div class='col text-end'>
-              <img src='/static/images/twit_logo.jpg'>
+              <img class='twit_logo' src='/static/images/twit_logo.jpg'>
             </div>
             <div class='col twitter'>
               <a href='https://x.com/monad_xyz' target='_blank'>@MONAD_XYZ</a><br>
@@ -98,7 +99,7 @@
               <a href='https://x.com/moncock_xyz' target='_blank'>@MONCOCK_XYZ</a>
             </div>
             <div class='col text-end'>
-              <img src='/static/images/discord_logo.png'>
+              <img class='discord_logo' src='/static/images/discord_logo.png'>
             </div>
             <div class='col discord'>
               DISCORD CHANNEL<br>
