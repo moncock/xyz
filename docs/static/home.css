@@ -77,26 +77,26 @@
 /* mobile friendly */
 @media (max-width: 767px) {
   .welcome {
-    font-size: 100px;
+    font-size: 90px;
     padding: 50px 0px;
   }
   .credit p {
-    font-size: 60px;
+    font-size: 50px;
   }
   .credit .col {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .credit img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
   }
   .credit img.twit_logo {
     margin-bottom: 20px;
   }
   .credit .twitter {
-    padding-top: 20px;
+    padding-top: 5px;
   }
   .credit .discord {
-    padding-top: 35px;
+    padding-top: 25px;
   }
 }
