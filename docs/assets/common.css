@@ -1,7 +1,7 @@
 /* font */
 @font-face {
   font-family: 'BebasNeue';
-  src: url('/static/fonts/bebasNeue/BebasNeue-Regular.ttf');
+  src: url('/assets/fonts/bebasNeue/BebasNeue-Regular.ttf');
   font-display: swap;
   font-style: normal;
   font-weight: normal;
