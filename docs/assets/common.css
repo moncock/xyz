@@ -42,3 +42,6 @@ body {
   color: #BF83E5;
   border-bottom: 2px solid #BF83E5;
 }
+.top-bar .item {
+  display: block;
+}
